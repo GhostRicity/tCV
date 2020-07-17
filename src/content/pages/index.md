@@ -3,9 +3,27 @@ template: index-page
 slug: /
 title: Wyatt Morriss
 tagline: Graphic Designer
-featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
+featuredImage: /assets/mike-dorner-sf_1ZDA1YFw-unsplash.jpg
 cta:
   ctaText: Know more
   ctaLink: /about
 ---
-He is a award winning gaming graphic designer, based in sunny side of California. Working as Principal designer at Bethesda
+
+
+## Who am I and what can I do?
+
+Intraductions to my work
+
+## Hear is a list of my education
+
+* school 1
+* scool2 
+* school 3
+
+
+
+# Skills and profesion
+
+* Calcano
+* Valcano
+* valcano

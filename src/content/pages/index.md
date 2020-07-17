@@ -6,13 +6,11 @@ title: Tore
 tagline: Sonde desing
 title: Wyatt Morriss
 tagline: Graphic Designer
-featuredImage: /assets/mike-dorner-sf_1ZDA1YFw-unsplash.jpg
->>>>>>> a20f0867bc5e4a69aaa1f3c9458cc19570797f05
+
 cta:
   ctaText: More abaut me!
   ctaLink: /about
 ---
-<<<<<<< HEAD
 He make muscik
 
 he protocet
@@ -38,4 +36,3 @@ Intraductions to my work
 * Calcano
 * Valcano
 * valcano
->>>>>>> a20f0867bc5e4a69aaa1f3c9458cc19570797f05

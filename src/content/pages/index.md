@@ -1,15 +1,11 @@
 ---
 template: index-page
 slug: /
-title: Tore
-tagline: Sonde desing
+title: Wyatt Morriss
+tagline: Graphic Designer
 featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
 cta:
-  ctaText: More abaut me!
+  ctaText: Know more
   ctaLink: /about
 ---
-He make muscik
-
-he protocet
-
-**Yes maybe no**
+He is a award winning gaming graphic designer, based in sunny side of California. Working as Principal designer at Bethesda

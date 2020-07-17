@@ -50,6 +50,9 @@ module.exports = {
           },
           `gatsby-remark-responsive-iframe`,
           {
+          resolve: `gatsby-remark-relative-images`,
+          },
+          {
             resolve: `gatsby-remark-prismjs`,
             options: {
               classPrefix: "language-",

@@ -4,8 +4,6 @@ slug: /
 <<<<<<< HEAD
 title: Tore
 tagline: Sonde desing
-featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
-=======
 title: Wyatt Morriss
 tagline: Graphic Designer
 featuredImage: /assets/mike-dorner-sf_1ZDA1YFw-unsplash.jpg
@@ -30,7 +28,7 @@ Intraductions to my work
 ## Hear is a list of my education
 
 * school 1
-* scool2 
+* scool2
 * school 3
 
 

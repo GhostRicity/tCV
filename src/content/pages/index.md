@@ -2,10 +2,18 @@
 template: index-page
 slug: /
 title: Wyatt Morriss
-tagline: Graphic Designer
-featuredImage: /assets/avery-klein-c_drtsnboqa-unsplash.jpg
+tagline: Kakka boy
+featuredImage: /assets/sebastiaan-stam-5hbrem-5mnq-unsplash.jpg
 cta:
   ctaText: Know more
   ctaLink: /about
 ---
-He is a award winning gaming graphic designer, based in sunny side of California. Working as Principal designer at Bethesda
+Introduction to my work in sound
+
+#Eduacations and other things#
+Thing 1
+thing 2
+Thing 3
+
+
+#Other things@#

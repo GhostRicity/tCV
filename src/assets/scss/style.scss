@@ -15,8 +15,9 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
-  background: var(--header-bg);
-  padding: 30px 20px;
+	background-color: #cfffd3;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='218' height='218' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23fafafa' fill-opacity='0.93' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+
 }
 .site-navigation {
   ul {
@@ -75,7 +76,7 @@
       z-index: 1;
       background: #421E2F;
       width: 100%;
-			max-width: 320px;    
+			max-width: 320px;
 			border-radius: 0 0 0 12px;
       overflow: hidden;
     }
@@ -164,7 +165,7 @@
 		margin: 0 0 3px;
 		font-size: 20px;
 		font-weight: 600;
-		a { 
+		a {
 			color: var(--post-link-color);
 		}
 	}
@@ -252,7 +253,7 @@ article img {
 		border-radius: 12px;
 	}
 }
-// Buttons 
+// Buttons
 .button {
 	--padding: 20px;
 	--margin: 20px;
@@ -355,6 +356,8 @@ article img {
 	a {
 		font-weight: normal;
 	}
+	background-color: #cfffd3;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='218' height='218' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23fafafa' fill-opacity='0.93' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
 }
 
 .pagination {
@@ -435,4 +438,3 @@ article img {
 
 // Libraries
 @import "lib/prism-default"
-

@@ -4,6 +4,7 @@ title: Mix And Audiometer mixing
 slug: mix
 date: 2020-07-20 13:16
 description: mix master
+audio: Instrumental.mp3
 ---
 # Song 1
 
@@ -16,3 +17,5 @@ Stuff
 # Song 3
 
 Liquide love
+
+`audio: Instrumental.mp3`

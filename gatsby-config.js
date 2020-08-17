@@ -48,6 +48,16 @@ module.exports = {
               loading: "lazy",
             },
           },
+          {
+           resolve: 'gatsby-remark-audio',
+           options: {
+            preload: 'auto',
+            loop: false,
+            controls: true,
+            muted: false,
+            autoplay: false
+          },
+         },
           `gatsby-remark-responsive-iframe`,
           {
           resolve: `gatsby-remark-relative-images`,

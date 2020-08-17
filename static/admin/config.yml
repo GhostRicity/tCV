@@ -43,6 +43,11 @@ collections:
         }
 
       - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
+      - {
+          label: 'Audio file',
+          name: 'audio_file',
+          widget: 'file'
+        }
   - label: "Pages"
     name: "pages"
     files:

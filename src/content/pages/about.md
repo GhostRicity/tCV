@@ -1,7 +1,7 @@
 ---
 template: about-page
 slug: /about
-title: Recomendations
+title: Review
 ---
 
 

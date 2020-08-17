@@ -12,87 +12,19 @@
 }
 .site-header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   position: relative;
-	background-color: #cfffd3;
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='218' height='218' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23fafafa' fill-opacity='0.93' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
-
 }
-.site-navigation {
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  ul li {
-    display: inline-block;
-    margin-left: 20px;
-  }
-  a {
-    color: rgba(255,255,255,0.6);
-    text-decoration: none;
-    &:hover {
-      color: rgba(255,255,255,0.8);
-    }
-  }
-  a[aria-current="page"] {
-    color: rgba(255,255,255,1)
-  }
-  .menu-trigger {
-    display: none;
-    font-size: 24px;
-    background: none;
-    border: none;
-    color: white;
-    padding: 0;
-    cursor: pointer;
-  }
-  @media (max-width: $breakpoint-lg) {
-    .menu-trigger,
-    .icon-menu-line {
-      display: flex;
-    }
 
-    .icon-menu-close {
-      display: none;
-    }
-    .menu-trigger.is-active {
-      .icon-menu-line {
-        display: none;
-      }
-      .icon-menu-close {
-        display: flex;
-      }
-    }
-    .menu-trigger.is-active + ul {
-      display: block;
-    }
-    ul {
-      display: none;
-      position: absolute;
-      right: 0;
-      top: 100%;
-      z-index: 1;
-      background: #421E2F;
-      width: 100%;
-			max-width: 320px;
-			border-radius: 0 0 0 12px;
-      overflow: hidden;
-    }
-    ul li {
-      display: block;
-      margin-left: 0;
-    }
-    a {
-      display: block;
-      padding: 20px;
-    }
-    a:hover {
-      background-color: #29121D;
-    }
-  }
+
+
+.text {
+  font-size: 20px;
+	text-align: center;
+	color: #47a13f;
 }
+
+
 .container {
 	margin: 0 auto;
 	max-width: 1240px;
@@ -115,8 +47,8 @@
 	padding: 60px 0;
 	align-items: center;
 	.title {
-		font-size: 48px;
-		line-height: 48px;
+		font-size: 2rem;
+		line-height: 2rem;
 		margin: 0 0 5px;
 		font-weight: 900;
 	}
@@ -165,6 +97,8 @@
 		margin: 0 0 3px;
 		font-size: 20px;
 		font-weight: 600;
+		align-items: center;
+		position: relative;
 		a {
 			color: var(--post-link-color);
 		}
@@ -356,8 +290,6 @@ article img {
 	a {
 		font-weight: normal;
 	}
-	background-color: #cfffd3;
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='218' height='218' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23fafafa' fill-opacity='0.93' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
 }
 
 .pagination {
@@ -434,7 +366,9 @@ article img {
 	}
 }
 
-@import "utility";
 
+
+@import "utility";
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 // Libraries
 @import "lib/prism-default"

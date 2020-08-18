@@ -1,6 +1,8 @@
 import React from "react"
-import { Link } from "gatsby"
 import Img from "gatsby-image"
+
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
 
 const PostCard = ({ data }) => (
   <article className="post-card">
@@ -17,7 +19,12 @@ const PostCard = ({ data }) => (
     }
     <div class="post-content">
       <h2 className="title">{data.frontmatter.title}</h2>
-      
+      <AudioPlayer
+        src={data.frontmatter.audio_file.publicURL}
+        onPlay={e => console.log("onPlay")}
+        customAdditionalControls={[]}
+      />
+      <p>{data.frontmatter.description}</p>
     </div>
   </article>
 )

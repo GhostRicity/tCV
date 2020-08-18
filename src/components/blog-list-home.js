@@ -1,6 +1,5 @@
 import React from "react"
-import { Link, StaticQuery, graphql } from "gatsby"
-import { RiArrowDownLine, RiArrowRightSLine } from "react-icons/ri"
+import { StaticQuery, graphql } from "gatsby"
 
 import PostCard from "./post-card"
 
@@ -26,11 +25,13 @@ export default function BlogListHome() {
             edges {
               node {
                 id
+                html
                 excerpt(pruneLength: 250)
                 frontmatter {
                   date(formatString: "MMMM DD, YYYY")
                   slug
                   title
+                  description
                   featuredImage {
                     childImageSharp {
                       fluid(maxWidth: 540, maxHeight: 360, quality: 80) {
@@ -38,6 +39,9 @@ export default function BlogListHome() {
                         ...GatsbyImageSharpFluidLimitPresentationSize
                       }
                     }
+                  }
+                  audio_file {
+                    publicURL
                   }
                 }
               }
@@ -50,7 +54,8 @@ export default function BlogListHome() {
           const posts = data.allMarkdownRemark.edges
             .filter(edge => !!edge.node.frontmatter.date)
             .map(edge =>
-              <PostCard key={edge.node.id} data={edge.node} />
+              <PostCard key={edge.node.id} data={edge.node}/>
+
           )
           return <PostMaker data={posts} />
         }

@@ -10,14 +10,14 @@ $breakpoint-xl: 1200px;
 	--font-family-mono: Andale Mono, Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
   --font-size-small: 12px;
 
-  --primary-color: #5C2941;
+  --primary-color: #47a13f;
   --header-bg: #3e354282;
 
   --home-link-color: #47a13f;
   --home-link-hover-color:  var(--primary-color);
 
   --button-color: #E5C3D3;
-  --button-alternate-color: #5C2941;
+  --button-alternate-color: #47a13f;
 
   --post-link-color: #0F070B;
 
@@ -27,6 +27,7 @@ $breakpoint-xl: 1200px;
 
   --label-text: rgba(0,0,0,0.5);
   --input-focus-border: #83AAAC;
+
 
   // CSS Grid Utility
   --grid-gap: 30px;

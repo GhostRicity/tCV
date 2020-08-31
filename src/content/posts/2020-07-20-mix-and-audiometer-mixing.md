@@ -1,6 +1,6 @@
 ---
 template: blog-post
-title: Mix And Audiometer mixing
+title: Tore Guldbrandsen
 slug: mix
 date: 2020-07-20 13:16
 description: Tore Guldbrandsen

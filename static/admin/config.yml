@@ -9,7 +9,7 @@ backend:
 #local_backend: true # run npx netlify-cms-proxy-server for local testing
 
 media_folder: "static/assets"
-public_folder: "static/assets"
+public_folder: "/assets"
 
 collections:
   - name: 'posts' # Used in routes, ie.: /admin/collections/:slug/edit

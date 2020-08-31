@@ -2,10 +2,9 @@
 template: contact-page
 slug: /contact
 title: Get in touch
-
 ---
-xXxDJToreTorexXx@gmail.com
+https://www.instagram.com/tguldbrandsen/
 
-+45 6535 7889
+https://www.facebook.com/search/top/?q=Tore%20Guldbrandsen
 
-Just send us a message using the form below or you can send us a DM on [Twitter](https://twitter.com/deadmau5)
+https://www.linkedin.com/in/tore-guldbrandsen-157282158/

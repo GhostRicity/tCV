@@ -3,7 +3,7 @@ template: index-page
 slug: /
 title: Not Good
 tagline: Hired a web developer and did not pay him.
-featuredImage: static/assets/tor.jpg
+featuredImage: /assets/tor.jpg
 cta:
   ctaText: Know more
   ctaLink: /about

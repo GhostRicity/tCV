@@ -1,12 +1,17 @@
 ---
 template: index-page
 slug: /
-title: Tor Tor
-tagline: No know how CMS work
+title: Not Good
+tagline: Hired a web developer and did not pay him.
 featuredImage: /assets/tor.jpg
 cta:
   ctaText: Know more
   ctaLink: /about
 ---
+This man hierd me and didafter 50h of working a protfolio website for him, he decided to get some one for the job, while not informing the origianl developer.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sapien purus, imperdiet nec odio ac, imperdiet vestibulum nulla. Donec efficitur, enim quis euismod euismod, risus enim laoreet dui, at consequat est justo id erat. Fusce euismod lorem ac neque aliquam sodales. Integer ut massa nunc. Duis euismod purus ac leo viverra, vitae efficitur ligula lacinia.
+This project was veary intresting in the sence the user whanted to  full CMS functionality in a single page, with the ability to play music on it. Theas lead in to some fairly complex use cases. After a motnh of work the client Tor, staited this. 
+
+Don’t worry about it Eddy, I’ve another one on the job already. I’m not skilled enough to do these things myself, so there’s no need for me to try.
+
+In this case it was not cleare is the CMS to hard to use or the client just prefers wordpres. Hard to comunicate client, that in the end did not pay.

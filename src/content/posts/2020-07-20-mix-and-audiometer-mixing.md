@@ -4,6 +4,7 @@ title: Mix And Audiometer mixing
 slug: mix
 date: 2020-07-20 13:16
 description: mix master
-featuredImage: static/assets/por.jpg
+featuredImage: static/assets/tor.jpg
 audio_file: static/assets/eddy-portfolio-master.mp3
 ---
+zzzz
